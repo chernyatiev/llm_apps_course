@@ -1,0 +1,17 @@
+# macOS
+.DS_Store
+
+# Временные файлы Office
+~$*
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Секреты
+.env
