@@ -16,7 +16,8 @@
 | [Занятие 1](lesson_1/) | Какие задачи решает ИИ: обзор возможностей и сценариев применения | презентация, [видео](https://vimeo.com/1238843571) |
 | [Занятие 2](lesson_2/) | Python с нуля до запроса к LLM: основы языка, классический NLP (pymorphy3, Natasha, TF-IDF), первый запрос к модели через API | презентация, ноутбук, [видео](https://vimeo.com/1238836667) |
 | [Занятие 3](lesson_3/) | От обёртки к агенту: системный промпт, история диалога, prompt-инъекции и защита, наивный RAG, tool calling вручную и анонс LangGraph | презентация, ноутбуки (GigaChat и AITunnel), [видео](https://vimeo.com/1246963521) |
-| [Занятие 4](lesson_4/) | Управление потоком исполнения: маршрутизация через if-else, явный граф (свой мини-движок на networkx), checkpointer и подтверждение человеком, ReAct-цикл и выбор архитектуры | презентация, ноутбуки (GigaChat и AITunnel) |
+| [Занятие 4](lesson_4/) | Управление потоком исполнения: маршрутизация через if-else, явный граф (свой мини-движок на networkx), checkpointer и подтверждение человеком, ReAct-цикл и выбор архитектуры | презентация, ноутбуки (GigaChat и AITunnel), [видео](https://vimeo.com/1248930324) |
+| [Занятие 5](lesson_5/) | Безопасность LLM-приложений: jailbreak и DAN, прямые и косвенные prompt-инъекции, риски инструментов, policy gate, минимальные права, human-in-the-loop и red-team тесты на MiniGraph | презентация, ноутбук (AITunnel) |
 
 *Программа будет пополняться по мере выхода новых занятий.*
 
@@ -31,6 +32,7 @@
 | Занятие 3 | От обёртки к агенту — AITunnel | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/chernyatiev/llm_apps_course/blob/main/lesson_3/llm_evolution_aitunnel.ipynb) |
 | Занятие 4 | Управление потоком исполнения — GigaChat | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/chernyatiev/llm_apps_course/blob/main/lesson_4/flow_control_gigachat.ipynb) |
 | Занятие 4 | Управление потоком исполнения — AITunnel | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/chernyatiev/llm_apps_course/blob/main/lesson_4/flow_control_aitunnel.ipynb) |
+| Занятие 5 | Безопасность LLM-приложений — AITunnel | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/chernyatiev/llm_apps_course/blob/main/lesson_5/llm_security_aitunnel.ipynb) |
 
 ## Как работать с материалами
 
@@ -42,5 +44,7 @@
 3. Для запросов к моделям понадобится доступ к API. Ноутбуки третьего и четвёртого занятий есть в двух вариантах:
    - **GigaChat** (бесплатный тариф Freemium);
    - **AITunnel** (агрегатор с доступом к разным моделям).
+
+   Для пятого занятия используется вариант с AITunnel.
 
    Ключ API храните в переменных окружения или секретах Colab. Не коммитьте его в репозиторий.

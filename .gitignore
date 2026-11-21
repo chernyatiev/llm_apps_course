@@ -4,6 +4,9 @@
 # Временные файлы Office
 ~$*
 
+# Служебные файлы сборки материалов
+.codex-deck-build/
+
 # Jupyter
 .ipynb_checkpoints/
 
